@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="qingniaonovel_31@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.2">
+    <root id="1"/>
+    <schema id="2" parent="1" name="qingniaonovel_31">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="bookstore"/>
+    <schema id="4" parent="1" name="bookstore_31"/>
+    <schema id="5" parent="1" name="book_2"/>
+    <schema id="6" parent="1" name="cat"/>
+    <schema id="7" parent="1" name="device"/>
+    <schema id="8" parent="1" name="goods"/>
+    <schema id="9" parent="1" name="house"/>
+    <schema id="10" parent="1" name="information_schema"/>
+    <schema id="11" parent="1" name="kd31"/>
+    <schema id="12" parent="1" name="mybatiskd31"/>
+    <schema id="13" parent="1" name="mysql"/>
+    <schema id="14" parent="1" name="shopping"/>
+    <schema id="15" parent="1" name="student"/>
+    <schema id="16" parent="1" name="stus"/>
+    <schema id="17" parent="1" name="test"/>
+    <schema id="18" parent="1" name="users"/>
+    <schema id="19" parent="1" name="作业"/>
+    <schema id="20" parent="1" name="高级查询"/>
+    <table id="21" parent="2" name="book"/>
+    <table id="22" parent="2" name="user"/>
+    <column id="23" parent="21" name="bookid">
+      <Position>1</Position>
+      <DataType>int(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="24" parent="21" name="title">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="25" parent="21" name="author">
+      <Position>3</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="26" parent="21" name="type">
+      <Position>4</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="27" parent="21" name="updatetime">
+      <Position>5</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="28" parent="21" name="clicks">
+      <Position>6</Position>
+      <DataType>int(20)|0</DataType>
+    </column>
+    <column id="29" parent="21" name="comment">
+      <Position>7</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <key id="30" parent="21" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>bookid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="31" parent="22" name="id">
+      <Position>1</Position>
+      <DataType>int(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="32" parent="22" name="name">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="33" parent="22" name="password">
+      <Position>3</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="34" parent="22" name="tel">
+      <Position>4</Position>
+      <DataType>int(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="35" parent="22" name="email">
+      <Position>5</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="36" parent="22" name="gender">
+      <Position>6</Position>
+      <DataType>int(20)|0</DataType>
+    </column>
+    <column id="37" parent="22" name="area">
+      <Position>7</Position>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="38" parent="22" name="resume">
+      <Position>8</Position>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <key id="39" parent="22" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

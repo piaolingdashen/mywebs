@@ -1,0 +1,50 @@
+body{
+	margin:0;
+	font-family:'微软雅黑','Times New Roman', Times, serif;
+	}
+.navi_head{
+	height:50px;
+	background-color:black;
+}
+.navi_body{
+	overflow:hidden;
+	margin-top: 12px;
+	height:50px;
+	background-color: lightskyblue;
+	transition:height ease 0.5s;
+}
+.navi_body:hover{
+	height:200px;
+}
+
+.navi_head>div>span{
+	width:150px;
+	text-align:center;
+	height:300px;
+	display:inline-block;
+	font-weight:bold;
+	color:lightslategray;
+	font-size:14px;
+	vertical-align:top;
+}
+
+.navi_head>div>span>p a{
+	color:black;
+	font-family: "宋体";
+	font-weight: bolder;
+	text-decoration:none;
+}
+.navi_head>div>span>p a:hover{
+	color:red;
+	text-decoration:none;
+}
+
+.navi_title{
+	font-size:16px;
+	line-height:50px;
+	margin-top:0;
+}
+
+.navi_head>div>span:hover{
+	background:rgba(100,100,100,0.5);
+}
